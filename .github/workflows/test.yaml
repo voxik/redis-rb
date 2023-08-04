@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LOW_TIMEOUT: "0.01"
-      REDIS_BRANCH: "7.0"
+      REDIS_BRANCH: "7.2"
     steps:
       - name: Check out code
         uses: actions/checkout@v3
